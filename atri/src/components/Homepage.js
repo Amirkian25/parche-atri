@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import Sliders from './Sliders';
+import Slidshow from "./Slidshow";
+import Cards from './Cards';
+
+
 
 class Homepage extends Component {
     render() {
         return (
             <div>
-               <Sliders /> 
+               <Slidshow />
+               <Cards />
+               <Cards />
+               
             </div>
         );
     }

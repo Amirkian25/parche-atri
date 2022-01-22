@@ -1,0 +1,16 @@
+.continer img{
+    width: 300px;
+    height: 300px;
+}
+.continer{
+    background-color: #ececec;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+.continer h3{
+    color: #696969;
+    margin:30px 30px 20px;
+    
+}

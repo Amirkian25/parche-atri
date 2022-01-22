@@ -5,6 +5,7 @@ import Aboutus from './components/Aboutus';
 import Products from './components/Products';
 import Homepage from './components/Homepage';
 import Login from './components/Login';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -19,10 +20,8 @@ class App extends Component {
             <Route path="/aboutus" component={Aboutus}/>
             <Route path="/" component={Homepage}/>
           </Switch>
-
-
         </div>
-        
+        <Footer />
       </div>
     );
   }
